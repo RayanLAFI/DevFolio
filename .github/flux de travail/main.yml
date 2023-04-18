@@ -10,10 +10,10 @@ jobs:
       - name: Deploy file
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
-          username: u2031126244
-          server: access914943276.webspace-data.io
+          username: "u2031126244"
+          server: "access914943276.webspace-data.io"
           port: 22
           local_path: './*'
           remote_path: '/'
           sftp_only: true
-          password: LAFIort2023
+          password: "LAFIort2023"
