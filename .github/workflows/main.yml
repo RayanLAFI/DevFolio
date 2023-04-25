@@ -13,7 +13,7 @@ jobs:
           username: "u2031126244"
           server: "access914943276.webspace-data.io"
           port: 22
-          local_path: './*'
+          local_path: '/'
           remote_path: '/'
           sftp_only: true
           password: "LAFIort2023"
